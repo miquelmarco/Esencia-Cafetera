@@ -1,0 +1,99 @@
+.color1 {
+    color: #362E23;
+}
+
+.color2 {
+    color: #3A3C26;
+}
+
+.color3 {
+    color: #6D6C3C;
+}
+
+.color4 {
+    color: #A9AC5D;
+}
+
+.color5 {
+    color: #E8E1DB;
+}
+
+/* font-family: "Protest Revolution", sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid red 1px; */
+}
+
+/* .layout  {
+    width: 100%;
+    height: 100%;
+} */
+
+header {
+    min-height: 15vh;
+    background-color: #362E23;
+    position: fixed;
+    width: 100%;
+    font-family: "Protest Revolution", sans-serif;
+}
+
+main {
+    min-height: 70vh;
+}
+
+footer {
+    min-height: 10vh;
+}
+
+/* header edit */
+
+.headerbackSupport {
+    min-height: 15vh;
+}
+
+.separator {
+    color: #A9AC5D;
+    font-weight: 900;
+}
+
+.headerLogo {
+    height: 5rem;
+}
+
+.navAnchor {
+    color: #A9AC5D;
+    font-weight: 600;
+    transition: 0.3s;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.underline {
+    height: 2px;
+    background-color: #A9AC5D;
+    width: 0.1%;
+    transition: 0.3s;
+}
+
+.navAnchor:hover + .underline {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.navIcons {
+    color: #A9AC5D;
+    font-weight: 600;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    transition: 0.3s;
+}
+
+.navIcons:hover {
+    cursor: pointer;
+    background-color: #A9AC5D;
+    color: #362E23;
+    transition: 0.3s;
+}
